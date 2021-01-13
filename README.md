@@ -26,10 +26,11 @@ Copy these dependencies into the app/build.gradle file in the `dependencies` blo
 
 ```
     implementation "com.google.dagger:hilt-android:2.28-alpha"
-    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:2.28-alpha'
-    kapt "com.google.dagger:hilt-android-compiler:2.28-alpha"
+    kapt "com.google.dagger:hilt-android-compiler:1.0.0-alpha01"
+    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01'
     kapt 'androidx.hilt:hilt-compiler:2.28-alpha'
 ```
+NOTE: the numbers here are important otherwise you wont get ViewModelInject along side
 
 Copy this line into the project level build.gradle file in the `dependencies` block
 
