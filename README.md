@@ -47,6 +47,22 @@ Copy these lines in order to include hilt testing deps for instrumentation tests
     androidTestImplementation "androidx.test:core-ktx:1.3.0"
 ```
 
+# Coroutines and Lifecycle Coroutines
+
+## Desc
+
+## Deps
+
+```
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
+
+    // Coroutine Lifecycle Scopes
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
+```
+
 # Mockito
 
 ## Desc
